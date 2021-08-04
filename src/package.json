@@ -1,0 +1,53 @@
+{
+    "Site_Name":"e-COMMERCE",
+    "User_Name":"Admin",
+    "SIDEBAR" : [
+      {
+        "Module_Name" : "Dashboard",
+        "Icon"        : "nav-icon fas fa-tachometer-alt",
+        "Url"         : "/",
+        "Active"      : true
+      },
+      {
+        "Module_Name" : "Admin Settings",
+        "Icon"        : "nav-icon fas fa-users",
+        "Url"         : "/siteSettings",
+        "Active"      : true,
+        "Sub_Module"  :[    {
+                              "Module_Name" : "Site Settings",
+                              "Url"         : "/siteSettings",
+                              "Active"      : true
+                            },
+                            {
+                              "Module_Name" : "App Settings",
+                              "Url"         : "/appSettings",
+                              "Active"      : true
+                            },
+                            {
+                              "Module_Name" : "Smtp Settings",
+                              "Url"         : "/smtpSettings",
+                              "Active"      : true
+                            }
+                         ]
+      },
+      {
+        "Module_Name" : "Faq",
+        "Icon"        : "nav-icon fas fa-question-circle",
+        "Url"         : "/faq",
+        "Active"      : true,
+        "Sub_Module"  : [
+                            {
+                              "Module_Name" : "Add Faq",
+                              "Url"         : "/faq",
+                              "Active"      : true
+                            },
+                            {
+                              "Module_Name" : "List Faq",
+                              "Url"         : "/listFaq",
+                              "Active"      : true
+                            }
+                         ]
+      }
+    ]
+  }
+  
